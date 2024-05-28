@@ -1,0 +1,28 @@
+/* Add a transition attribute and padding */
+.card:hover{
+    transition: padding .5s;
+    padding:10px;
+    .btn {
+        transition: visibility 0.5s;
+        visibility: visible;
+    }
+}
+
+/* Create a rule so that the buttons begin invisibile */
+.btn {
+    visibility:hidden;
+    background-color:#78B05C;
+    color:white;
+}
+
+
+/* Create a rule so that the buttons become visible
+    when you hover over card */
+    
+
+
+
+/* Push the row to the middle (ish) of the page */
+.container{
+    margin-top:20%;
+}
